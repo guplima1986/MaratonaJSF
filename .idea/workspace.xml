@@ -2,29 +2,35 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="maratonajsf" />
+      <artifact name="maratona_jsf" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf4578a-2399-46c3-b729-ab0e9fb5ad80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Maratona_JSF_war_exploded.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean/estudante/EstudanteRegistrarBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maratonajsf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maratona-JSF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maratona-JSF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maratona_JSF_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maratona_JSF_war_exploded/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maratona_JSF_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maratona_JSF_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maratona_JSF_war_exploded/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratonajsf.war/Maratona-JSF_war exploded.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratonajsf.war/maratonajsf.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kc9PkDmeQ4WwtoMzggv6ebGt4H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -60,10 +68,10 @@
   </component>
   <component name="RunManager">
     <configuration name="WildFly 10.1.0.Final " type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/maratonajsf/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="maratonajsf">
+        <artifact name="maratona_jsf">
           <settings />
         </artifact>
       </deployment>
@@ -127,7 +135,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="maratonajsf" />
+          <artifact name="maratona_jsf" />
         </option>
       </method>
     </configuration>
@@ -142,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605988990726</updated>
-      <workItem from="1605988993225" duration="2976000" />
+      <workItem from="1605988993225" duration="5686000" />
     </task>
     <servers />
   </component>
