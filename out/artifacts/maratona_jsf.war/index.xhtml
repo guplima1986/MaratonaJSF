@@ -4,14 +4,59 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-   <f:view>
-      <h:outputLabel value="Teste Hot deploy Hello, world"/>
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
 
-      <br></br>
+      <body>
+         <p:importEnum type="br.com.maratonajsf.devdojo.model.enums.Turno" var="Turno" allSuffix="ALL_ENUM_VALUES" />
 
-      <h:outputLabel value="#{estudanteRegistrarBean.nome}"></h:outputLabel>
+      <h:outputLabel value="Teste Hot deploy Hello, world"/><br/><br/>
 
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.nome}"></h:outputLabel><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante['sobrenome']}"></h:outputLabel><br/>
 
-   </f:view>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.nota1 eq estudanteRegistrarBean.estudante.nota2}"></h:outputLabel><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.nota1 == estudanteRegistrarBean.estudante.nota2}"></h:outputLabel><br/>
+
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.nota1 == estudanteRegistarBean.estudante.nota2
+         and estudanteRegistarBean.estudante.nome.equals('Gustavo')}"></h:outputLabel><br/><br/>
+
+         <h:outputText value="TURNO"/><br/><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.turno}"></h:outputLabel><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.turno eq 'NOTURNO'}"></h:outputLabel><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.estudante.turno eq Turno.NOTURNO}"></h:outputLabel><br/>
+
+         <br/>
+         <h:outputText value="ARRAYS"/><br/><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.arrayNomes[0]} #{estudanteRegistarBean.arrayNomes[1]} #{estudanteRegistarBean.arrayNomes[2]} #{estudanteRegistarBean.arrayNomes[3]}"></h:outputLabel><br/>
+
+        <ui:repeat value="#{estudanteRegistarBean.arrayNomes}" var="nomeArray">
+            <h:outputText value="#{nomeArray}"/><br/>
+        </ui:repeat>
+
+         <br/>
+         <h:outputText value="LIST"/><br/><br/>
+         <h:outputLabel value="#{estudanteRegistarBean.listNomes.get(0)} #{estudanteRegistarBean.listNomes.get(1)} #{estudanteRegistarBean.listNomes.get(2)}"></h:outputLabel><br/>
+
+         <ui:repeat value="#{estudanteRegistarBean.listNomes}" var="nomeList">
+             <h:outputText value="#{nomeList}"/><br/>
+         </ui:repeat>
+
+         <br/>
+         <h:outputText value="SET"/><br/><br/>
+
+         <ui:repeat value="#{estudanteRegistarBean.nomesSet}" var="nomesSet">
+             <h:outputText value="#{nomesSet}"/><br/>
+         </ui:repeat>
+
+         <br/>
+         <h:outputText value="MAP"/><br/><br/>
+         <h:outputText value="#{estudanteRegistarBean.nomesMaps.get('Gustavo')}"/><br/><br/>
+         <h:outputText value="#{estudanteRegistarBean.nomesMaps}"/><br/><br/>
+
+         <ui:repeat value="#{estudanteRegistarBean.nomesMaps.entrySet()}" var="entry">
+             <h:outputText value="#{entry}"/><br/>
+         </ui:repeat>
+
+      </body>
 </html>

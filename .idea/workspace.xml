@@ -7,16 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf4578a-2399-46c3-b729-ab0e9fb5ad80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/estudante/EstudanteRegistrarBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maratonajsf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/maratonajsf/devdojo/bean/EstudanteRegistarBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/maratonajsf/devdojo/model/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/maratonajsf/devdojo/model/enums/Turno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maratona-JSF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maratona-JSF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratonajsf.war/Maratona-JSF_war exploded.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratonajsf.war/maratonajsf.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf.war/WEB-INF/classes/bean/estudante/EstudanteRegistrarBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf.war/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf.war/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/estudante/EstudanteRegistrarBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/estudante/EstudanteRegistrarBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,6 +52,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -68,6 +74,7 @@
   </component>
   <component name="RunManager">
     <configuration name="WildFly 10.1.0.Final " type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -150,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605988990726</updated>
-      <workItem from="1605988993225" duration="5686000" />
+      <workItem from="1605988993225" duration="14105000" />
     </task>
     <servers />
   </component>
@@ -167,5 +174,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
